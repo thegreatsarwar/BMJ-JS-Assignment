@@ -40,3 +40,19 @@ function OTP() {
 console.log(`${r1}${r2}${r3}${r4}`)
    
 }
+
+function href1(){
+    window.location.href='js1.html'
+}
+function href2(){
+    window.location.href='js2.html'
+}
+function href3(){
+    window.location.href='js3.html'
+}
+function href4(){
+    window.location.href='js4.html'
+}
+function hrefMain(){
+    window.location.href = 'index.html'
+}
