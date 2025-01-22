@@ -56,3 +56,6 @@ function href4(){
 function hrefMain(){
     window.location.href = 'index.html'
 }
+function href5(){
+    window.location.href='CA.html'
+}
