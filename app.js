@@ -1,6 +1,7 @@
 //https://github.com/thegreatsarwar/BMJ-Assignment---JavaScript.git
 
 const passwordBox = document.getElementById("password")
+const pasteBox = document.getElementById("paste")
 const length = 12;
 
 function createPassword(){
@@ -20,6 +21,11 @@ const allChars = upperCase + lowerCase + number + symbol
         password += allChars[Math.floor(Math.random()* allChars.length)];
     }
     passwordBox.value = password;
+}
+
+function copyPassword(){
+    passwordBox.select();
+    document.execCommand("copy");     
 }
 
 function OTP() {
@@ -46,6 +52,9 @@ function hrefMain(){
 }
 function href5(){
     window.location.href='js5.html'
+}
+function href6(){
+    window.location.href='js6.html'
 }
 
 let eyeicon = document.getElementById("eyeicon");
